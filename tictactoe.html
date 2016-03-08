@@ -1,0 +1,42 @@
+<h1>Tic Tac Toe</h1>
+<div class="buttonContainer">
+	<button type="button" id="newGame">New Game</button>
+</div>
+<div id='board'>
+	<table>
+		<tr>
+			<td id="0"></td>
+			<td id="1"></td>
+			<td id="2"></td>
+		</tr>
+		<tr>
+			<td id="3"></td>
+			<td id="4"></td>
+			<td id="5"></td>
+		</tr>
+		<tr>
+			<td id="6"></td>
+			<td id="7"></td>
+			<td id="8"></td>
+		</tr>
+	</table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="pickSymbol" role="dialog">
+	<div class="modal-dialog">
+<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Pick X or O</h4>
+			</div>
+			<div class="modal-body">
+				<p>X makes the first move, which puts O at an disadvantage.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn-pick" data-symbol="X">X</button>
+				<button type="button" class="btn-pick" data-symbol="O">O</button>
+			</div>
+		</div>
+	</div>
+</div>

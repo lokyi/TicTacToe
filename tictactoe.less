@@ -1,0 +1,42 @@
+body {
+	background-color: #eee;
+	h1 {
+		text-align: center;
+	}
+	.buttonContainer {
+		width: 480px;
+		margin: 25px auto;
+	}
+	div#board {
+		width: 480px;
+		height: 480px;
+		margin: 10px auto;
+		tr {
+			height: 160px;
+			td {
+				width: 160px;
+				border: solid;
+				background-color: grey;
+				text-align: center;
+				font-weight: bold;
+				font-size: 48px;
+			}
+			td:hover {
+				&.open {
+					cursor: pointer;
+					background-color: #bbb;
+				}
+			}
+		}
+	}
+	.modal-footer {
+		button {
+			width: 29%;
+			margin-left: 10%;
+			margin-right: 10%;
+			font-weight: bold;
+			font-size: 32px;
+			background-color: #bbb;
+		}
+	}
+}
